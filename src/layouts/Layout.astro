@@ -12,7 +12,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
 const resolvedImageWithDomain = new URL(
   "/opengraph.jpg",
-  Astro.site
+  Astro.site,
 ).toString();
 
 const { title } = Astro.props;
@@ -22,7 +22,7 @@ const makeTitle = title
   : "Astroship - Starter Template for Astro with Tailwind CSS";
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -33,22 +33,22 @@ const makeTitle = title
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="Astroship is a starter website template for Astro built with TailwindCSS."
+      description="Embark on a transformative journey in my Digital Sanctuary. Explore web technologies, self-discovery and wisdom of Adler and the Stoics. Find your path here."
       canonical={canonicalURL}
       twitter={{
-        creator: "@surjithctly",
-        site: "@web3templates",
+        creator: "@hlnbee",
+        site: "@helenburgess.id.au",
         card: "summary_large_image",
       }}
       openGraph={{
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `Astroship - Starter Template for Astro`,
+          title: `Digital Sanctuary: For Self-Discovery Through Web Technologies.`,
           image: resolvedImageWithDomain,
         },
         image: {
-          alt: "Astroship Homepage Screenshot",
+          alt: "helenburgess.id.au Homepage Screenshot",
         },
       }}
     />
