@@ -11,10 +11,6 @@ const writings = defineCollection({
 		updatedDate: z.coerce.date().optional(),
 		heroImage: z.string().optional(),
 		author: z.string(),
-		image: z.object({
-			url: z.string(),
-			alt: z.string()
-		}),
 		tags: z.array(z.string()),
 		category: z.array(z.string())
 	})

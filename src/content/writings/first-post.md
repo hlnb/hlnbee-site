@@ -1,16 +1,47 @@
 ---
-title: 'First post'
-description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 08 2022'
-heroImage: '/blog-placeholder-3.jpg'
+title: 'Giving your hands some help'
+description: 'helpful information on keeping hands healthy'
+pubDate: 'May 27  2019'
+heroImage: '/images/'
+author: 'HelenBee'
+tags: 'hand health'
+category: 'knitting'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+##Hand Update
+01 January 2023
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+Since writing this article, I have been diagnosed with arthritis in my hands, with my right thumb having bone-on-bone. Ouchy!!!!
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+I had surgery to remove a bone from the CMC joint in December 2021 and have been doing rehab since then. I have a few pictures of my hand post-surgery, which I will upload here soon.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+##A bit of background
+*updated 01 Nov 2023*
+
+For those of us who have not had a hand injury or were born without “normal” hands, we only have one set of hands, unlike some sci-fi characters. As such, we should give them a “helping hand” so that we can work as expected long into our old age without any pain added by our modern online way of living. I hope that we have all heard of ‘Gamer’s Thumb’, ‘Texting Thumb’, or ‘knitter’s thumb’, yet did you know that they are all the same thing? RSI, or repetitive strain injury, can occur in any of these activities at the base of our thumbs.
+
+I have been making things by knitting or crocheting since I was a young girl (about the age of 8) and, at the time, did not know that these activities contributed to having sore thumbs and hands. Personally, I have hypermobile joints in my body, which can cause a whole lot of other problems; however, I never thought that my thumbs would be part of that. When I was learning the piano as a six-year-old, I could easily span an octave on a standard keyboard. Not in my wildest dreams as a grownup did I think that my joints would be subjected to pain!
+
+The jobs I have done have may also have something to do with the pain as well. Being a touch typist has been a boon in my work. My point is through, activities you do through your life contribute to this whether it be from typing, knitting using a mobile phone, tablet or game console you need to look after your hands to avoid such pain.
+
+About 15 years ago I started to get pains in the base of my right thumb. I was not knitting at the time so did not think that was the cause of it. I was however doing a lot of typing (as you do when you are coding & teaching) as well as using my smartphone extensively. On seeing a physiotherapist, getting x-rays of my hand and other tests, I was diagnosed as having De quervain’s syndrome.  It sounded so scary. The physiotherapist at the time did not consider my highly mobile joints may have contributed to it. I was given advice to take anti-inflammatory drugs, rest my hand, wear a splint that supported my thumb and a series of exercises.
+
+Although there is a name for this pain, it is Tenosynovitis of the tendons and surrounding structure of the thumb. Most of the exercises helped with the pain and I do them regularly now. Having a painful thumb and wrist can/has sidelined me for weeks whilst I rest my joints.
+---
+>###Disclaimer
+>I am not a medical professional, and what I am writing about is my journey and what works for me. If you have thumb or hand pain, go to your doctor to have it checked out, or see a physiotherapist.
+---
+I use about a series of exercises that I find very helpful. I am providing links to videos that help explain what they are and how to do them from one of my favourite youtube Physiotherapists – Dr Jo. I use a stress ball to do the ball exercises and have a set of small hand weights instead of the can, although a 440g can of soup is good to use. 
+
+I also use heat and cold on my hands. I have been know to put my hand into an ice bath for as long as I can stand it.I also have a small hot wheat bag that my hand can rest on when using heat. I take breaks and massage my forearm muscle groups as they can contribute to the pain as well when they get tight. When massaging my hands and forearms I like to use a natural anti-inflammatory cream (end up smelling of peppermint and pine). I make sure that I wash my hands thoroughly afterwards so that I don’t put anything in my eyes or mouth.
+
+I also cannot stress enough the importance of proper posture whilst doing any activity that may cause pain. Ergonomics plays such a big part of my knitting and typing that I regularly check whether I have the right posture, holding my knitting needles as well as how I am sitting in the chair.
+
+The exercises in the videos are the same ones my physiotherapist gave me. I just think seeing them is better than trying to write them down. For General Hand/Joint/Wrist health they are good to do as well.
+
+
+##Final Thoughts on my Hands
+I personally think that my thumb pain is a combination of all the hobbies and jobs I have done over the years with a keyboard and needles. I also think that my highly mobile joints have added to this as time went on. Who at 55 over 50 can bend their hand so their thumb almost touches the inside of their wrist.
+I have given myself permission to stop when I need to, when the pain is at its greatest, do my hand exercises each day (using the videos as a reminder) and enjoy the massage of hands and forearms as much as possible.
+I do think that having a doctor check out the pain is a good idea, and that having any sort of cortisone injection is not. What the medical professionals call ‘conservative treatment’ works for me and it might just work for you.
