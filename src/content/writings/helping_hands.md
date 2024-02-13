@@ -3,8 +3,9 @@ title: 'Giving your hands some help'
 description: 'helpful information on keeping hands healthy'
 pubDate: 'May 27 2019'
 updatedDate: 'Jan 01 2023'
-heroImage: '/images/'
+heroImage: '../images/claudio-schwarz-k39RGHmLoV8-unsplash.jpg'
 author: 'HelenBee'
+
 ---
 
 
