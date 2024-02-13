@@ -1,7 +1,7 @@
 ---
 title: 'Giving your hands some help'
 description: 'helpful information on keeping hands healthy'
-pubDate: 'May 27  2019'
+pubDate: 'May 27 2019'
 heroImage: '/images/'
 author: 'HelenBee'
 tags: []
