@@ -1,11 +1,9 @@
 ---
 title: 'ANZAC Day and being a Peace-Time Veteran'
 description: 'my thoughts on being a veteran during the period of relative peace in Australia'
-pubDate: 'Jun 295 2019'
+pubDate: 'Jun 29 2019'
 heroImage: '/blog-placeholder-2.jpg'
 author: 'helenbee'
-tags: []
-category: []:
 ---
 
 My name is Helen Burgess and I am a veteran, having served in the Royal Australian Air Force from 1984 until 2000. My service is during a time of peace where no major conflicts like we see today, so I have often had trouble reconciling myself to the label “Veteran”.
