@@ -1,5 +1,16 @@
 ---
 import Layout from '../layouts/aboutPost.astro';
+
+const pageTitle = 'About Me';
+
+const identity = {
+	firstName: 'Helen',
+	country: 'Australia',
+	occupation: 'Veteran Retiree',
+	hobbies: ['Knitting', 'NFL', 'adventures'],
+};
+
+const skills = ['HTML', 'CSS', 'JavaScript', 'Astro', 'Writing Docs'];
 ---
 
 <Layout
@@ -80,4 +91,26 @@ import Layout from '../layouts/aboutPost.astro';
 		road less traveled, constantly seeking new horizons in the digital realm and
 		beyond. Join her as she continues to explore, inspire, and empower.
 	</p>
+	<div
+		class="infobox"
+		style="width: 50vw; border: 2px solid var(--gray-light);"
+	>
+		<p>Here are a few facts about me:</p>
+		<ul>
+			<li>My name is {identity.firstName}.</li>
+			<li>I live in {identity.country} and I am a {identity.occupation}.</li>
+			{
+				identity.hobbies.length >= 2 && (
+					<li>
+						Two of my hobbies are: {identity.hobbies[0]} and{' '}
+						{identity.hobbies[1]}
+					</li>
+				)
+			}
+		</ul>
+		<p>My skills are:</p>
+		<ul style="display: flex; justify-content: space-around;">
+			{skills.map((skill) => <li>{skill}</li>)}
+		</ul>
+	</div>
 </Layout>
