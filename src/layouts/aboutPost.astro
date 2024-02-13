@@ -5,9 +5,10 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 
-type Props = CollectionEntry<'writings'>['data'];
-
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const {
+	title,
+	description,
+} = Astro.props;
 ---
 
 <html lang="en">
@@ -41,12 +42,15 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 			.title {
 				margin-bottom: 1em;
-				padding: 1em 0;
-				text-align: center;
+				padding: 1em 2em;;
+				text-align: left;
 				line-height: 1;
 			}
 			.title h1 {
 				margin: 0 0 0.5em 0;
+				color: var(--white);
+				position: relative;
+				bottom: 0;
 			}
 			.date {
 				margin-bottom: 0.5em;
@@ -62,22 +66,12 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<Header />
 		<main>
 			<article>
-				<div class="hero-image">
-					{heroImage && <img width={960} src={heroImage} alt="" />}
+				<div class="hero-image" style="background:#8a246a url(./images/scribbble.svg) no-repeat 100% 7%; background-size: 960px auto; background-blend-mode: screen ">
+					<div class="title">
+						<h1>About Helen B: <br>A Tapestry of Technology and Resilience</h1>
+					</div>
 				</div>
 				<div class="prose">
-					<div class="title">
-						<div class="date">
-							<FormattedDate date={pubDate} />
-							{
-								updatedDate && (
-									<div class="last-updated-on">
-										Last updated on <FormattedDate date={updatedDate} />
-									</div>
-								)
-							}
-						</div>
-					</div>
 					<slot />
 				</div>
 			</article>
