@@ -37,18 +37,30 @@
 	font-style: normal;
 	font-display: swap;
 }
+
 body {
 	font-family: 'Atkinson', sans-serif;
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	background: linear-gradient(var(--gray-gradient)) no-repeat;
-	background-size: 100% 600px;
+	background: url(./images/HelenB_DotPattern_Long.svg) top right 5em repeat-y;
+	background-size: 66px auto;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
 	font-size: 20px;
 	line-height: 1.7;
+}
+.hamburger {
+	padding-right: 20px;
+	cursor: pointer;
+}
+.hamburger .line {
+	display: block;
+	width: 40px;
+	height: 5px;
+	margin-bottom: 10px;
+	background-color: white;
 }
 main {
 	width: 720px;
