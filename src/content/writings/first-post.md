@@ -4,8 +4,8 @@ description: 'helpful information on keeping hands healthy'
 pubDate: 'May 27  2019'
 heroImage: '/images/'
 author: 'HelenBee'
-tags: 'hand health'
-category: 'knitting'
+tags: 
+category: 
 ---
 
 

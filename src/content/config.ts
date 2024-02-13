@@ -10,9 +10,9 @@ const writings = defineCollection({
 		pubDate: z.coerce.date(),
 		updatedDate: z.coerce.date().optional(),
 		heroImage: z.string().optional(),
-		author: z.string(),
-		tags: z.array(z.string()),
-		category: z.array(z.string())
+		author: z.string().optional(),
+		tags: z.array(z.string().optional()).optional(),
+		category: z.array(z.string().optional()).optional()
 	})
 });
 
