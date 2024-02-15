@@ -6,12 +6,11 @@ import { SITE_TITLE } from '../consts';
 <header>
 	<nav>
 		<h1>
-			<a href="/">{SITE_TITLE}</a><img
+			<a href="/">{SITE_TITLE}<img
 				src="/logos/HelenB_DotPattern_Square.png"
-				width="30px"
-				height="30px"
-				style="display: inline-block; position: relative; top:-1 5px; left: -10px"
+				width="25px"
 			/>
+		</a>
 		</h1>
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
@@ -28,15 +27,35 @@ import { SITE_TITLE } from '../consts';
 		background: #26215a;
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
 	}
-	h2 {
+	h1 {
 		margin: 0;
-		font-size: 1em;
+		font-size: 3em;
 	}
 
-	h2 a,
-	h2 a.active {
+	h1 a,
+	h1 a.active {
 		text-decoration: none;
 	}
+
+	a > img{
+    position: relative;
+    top: -15px;
+    left: 9px;
+    background-color: white;
+    padding: 3px;
+	}
+	/* nav styles */
+	.hamburger {
+  padding-right: 20px;
+  cursor: pointer;
+}
+.hamburger .line {
+  display: block;
+  width: 40px;
+  height: 5px;
+  margin-bottom: 10px;
+  background-color: #ff9776;
+}
 	nav {
 		display: flex;
 		align-items: center;
@@ -51,6 +70,9 @@ import { SITE_TITLE } from '../consts';
 	nav a.active {
 		text-decoration: none;
 		border-bottom-color: var(--accent);
+	}
+	.hamburger{
+		display: none;
 	}
 	.social-links,
 	.social-links a {

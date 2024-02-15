@@ -1,22 +1,18 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-
+import Layout from '../layouts/bassLayout.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
-<BaseLayout>
-		<main>				
-      <div class="hero-image" 
-          style="background:#999 url(/images/roadlesstravelled.png) no-repeat; 
-          background-size: 1240px auto; 
-          background-blend-mode: multiply;
-          aspect-ratio: 16/9;         
-          display: flex;
-          align-items: center;">
-        <div class="title" style="color: var(--white); text-shadow: 2px 2px var(--black); width: 50%; padding: 3em;">
-        <h1 style="color: var(--white);text-shadow: 2px 2px var(--black);">Exploring the Road less travelled</h1>
-        <p>From ASCII to HTML, I’ve navigated the roads less travelled in technology and life. Veteran, Nana, knitter, and web technologist looking to pass on my lived experience of self-discovery.</p>
-        </div>
-      </div>
-			<h2>Welcome to my Digital Sanctuary &hellip;</h2>
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+
+		<main>
+			<h1>Welcome to my Digital Sanctuary &hellip;</h1>
 			<p>
 				a haven where I explore the road less traveled, unravel the complexities
 				of my journey, and find solace in the transformative power of web
@@ -82,4 +78,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 				</div>
 			</section>
 		</main>
-</BaseLayout>
+		<Footer />
+	</body>
+</html>
