@@ -14,7 +14,8 @@ const skills = ['HTML', 'CSS', 'JavaScript', 'Astro', 'Writing Docs'];
 ---
 
 <Layout>
-
+<article>
+	<div class="about-leadin">
 	<h2>Embarking on a Unique Journey</h2>
 	<p>
 		Welcome to the world of Helen B, where the threads of technology,
@@ -22,6 +23,13 @@ const skills = ['HTML', 'CSS', 'JavaScript', 'Astro', 'Writing Docs'];
 		From the sun-kissed shores of Perth, Western Australia, Helen's journey is
 		one of courage, innovation, and the relentless pursuit of knowledge.
 	</p>
+	<figure>
+		<img src="/images/Helen-Burgess_uswas4.jpg">
+		<figcaption>
+		</figcaption>
+	</figure>
+	<div class="about-content">
+		<div class="card">
 	<h3>Early Inspirations:</h3>
 	<p>
 		Dreams of the Moon and Machines Helen's story begins with a childhood filled
@@ -31,6 +39,8 @@ const skills = ['HTML', 'CSS', 'JavaScript', 'Astro', 'Writing Docs'];
 		technology and the unknown laid the foundation for a life driven by
 		exploration and discovery.
 	</p>
+</div>
+<div class="card">
 	<h3>A Calling to the Skies: The RAAF Chapter</h3>
 	<p>
 		After high school, Helen's path took a bold turn as she enlisted in the
@@ -40,17 +50,8 @@ const skills = ['HTML', 'CSS', 'JavaScript', 'Astro', 'Writing Docs'];
 		Her time in the RAAF was a period of profound growth, shaping her into a
 		leader and a problem-solver.
 	</p>
-
-	<p>
-		Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac
-		ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem
-		viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu
-		ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac
-		tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus
-		pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim
-		sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam.
-		Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
-	</p>
+	</div>
+<div class="card">
 	<h3>Transition to Technology: The Educational Odyssey</h3>
 	<p>
 		Leaving the RAAF marked the beginning of a new chapter in Helen's life. She
@@ -60,6 +61,8 @@ const skills = ['HTML', 'CSS', 'JavaScript', 'Astro', 'Writing Docs'];
 		intricacies of web design and development, leaving an indelible mark on the
 		next generation of tech enthusiasts.
 	</p>
+	</div>
+<div class="card">
 	<h3>Graphite Edge: A Venture into the Digital Frontier</h3>
 	<p>
 		Helen's journey then led her to establish Graphite Edge, a beacon for small
@@ -67,6 +70,8 @@ const skills = ['HTML', 'CSS', 'JavaScript', 'Astro', 'Writing Docs'];
 		her military discipline, educational expertise, and technological acumen to
 		offer bespoke solutions in web development and digital strategy.
 	</p>
+	</div>
+<div class="card">
 	<h3>A Personal Odyssey: Healing and Growth</h3>
 	<p>
 		Beyond her professional achievements, Helen's story is also one of personal
@@ -74,7 +79,8 @@ const skills = ['HTML', 'CSS', 'JavaScript', 'Astro', 'Writing Docs'];
 		demands of the tech world is a testament to her strength and adaptability.
 		It's a journey marked by continuous learning, self-discovery, and an
 		unwavering commitment to personal growth.
-	</p>
+	</p></div>
+<div class="card-cta">
 	<h3>Join Helen's Journey</h3>
 	<p>
 		Today, Helen Burgess stands as a symbol of innovation, resilience, and the
@@ -82,9 +88,11 @@ const skills = ['HTML', 'CSS', 'JavaScript', 'Astro', 'Writing Docs'];
 		road less traveled, constantly seeking new horizons in the digital realm and
 		beyond. Join her as she continues to explore, inspire, and empower.
 	</p>
+</div>
+</div>
 	<div
 		class="infobox"
-		style="width: 50vw; border: 2px solid var(--gray-light);"
+		style="width: 50vw; padding: .5em 1em; border: 2px solid rgb(var(--gray-light));"
 	>
 		<p>Here are a few facts about me:</p>
 		<ul>
@@ -104,4 +112,5 @@ const skills = ['HTML', 'CSS', 'JavaScript', 'Astro', 'Writing Docs'];
 			{skills.map((skill) => <li>{skill}</li>)}
 		</ul>
 	</div>
+</article>
 </Layout>
