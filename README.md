@@ -1,46 +1,46 @@
-# ONCE - Eleventy Theme
+# 11straps = 11ty + Bootstrap5
 
-[**Demo**](https://once-eleventy.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/64b42b0c-aeba-4583-b023-202fcdf571bb/deploy-status)](https://app.netlify.com/sites/11straps-demo/deploys)
 
-Personal theme made with:
-- [Eleventy](https://www.11ty.dev/)
-- [BulmaCSS](https://bulma.io/)
-- [PurgeCSS](https://purgecss.com/)
+**Live Demo**: <a href="https://11straps.com" target="_blank">11straps.com</a>
 
-Features:
+## What is 11straps?
+11straps is a simple boilerplate. It combines the static site generator <a href="https://www.11ty.dev/" target="_blank">11ty</a> with the CSS framework <a href="https://getbootstrap.com/" target="_blank">Bootstrap 5</a> and is stitched together with some npm and Gulp magic dust. It minifies and purges the CSS file (so it removes any unused CSS) and comes with a static server and browser sync support for your local development.
 
-- Layouts for:
-  - Pages (minimal-post.njk)
-  - Post (post.njk)
-  - Index
-  - Tag pages
-  - Error 404
-- Sitemap
-- Search by titles
-- Share Buttons
-- Links for social profiles.
-- Blocks for ads or another content
-- Cookies advice
-- Minify CSS, JS and HTML
-- Remove unused CSS
+## Requirements
+You need Node (at least v8+) on your computer. To check if you have node and what version run this command in your terminal:
+```
+node --version
+```
 
-## Scripts
+## Want to try it out now?
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/holger1411/11straps)
 
-- Develop: `npm run serve`
-- Build: `npm run build`
+## Installation
+Download and extract the [latest release](https://github.com/holger1411/11straps/releases) or checkout the main branch of this repo.
+Fire up your terminal, go to the new folder and run:
+```
+npm install
+```
+Now you are good to go.
 
-## Config Theme
+## Build it for dev
+To build your static website for local development run:
+```
+npm run build-dev
+```
+This will build the static website into the `/dev` folder without all the minifiying and purging stuff (<- much faster and a more human friendly code output, but a much bigger package)
 
-There is a file `_data/config.json` where you can edit your configuration.
+## Run in dev mode
+To run the build-dev task automatically on file changes run:
+```
+npm run watch
+```
+That will run a local server from `/dev` folder and connects browser sync to it. On changes within the `/src` folder it will run the `npm run build-dev` command automatically and will refresh your browser.
 
-### Custom CSS y JS
-- `./src/_css/custom.css`
-- `./_includes/scripts.js`
-
-### Error 404
-
-There is a template for errors. [More information](https://www.11ty.dev/docs/quicktips/not-found/).
-
-### Ad Blocks
-
-Edit in `eleventy.js`
+## Build it for prod
+If you are done with your dev work and happy with it its time to deploy your static website into the wild wild west (www). To build your static website for a prod deployment run:
+```
+npm run build
+```
+That will output the full site, with purged and minified CSS and minified html. The output will be stored in the `/public` folder.
